@@ -1,0 +1,5 @@
+declare module "hpp" {
+  import { RequestHandler } from "express";
+  const hpp: (options?: any) => RequestHandler;
+  export default hpp;
+}
